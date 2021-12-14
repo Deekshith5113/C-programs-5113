@@ -9,14 +9,14 @@ main()
 	D=((b*b)-(4*a*c));
 	if (D>0)
 	{
-		firstroot=((-b+sqrt(D))/2*a);
-		secondroot=((-b-sqrt(D))/2*a);
+		firstroot=((-b+sqrt(D))/(2*a));
+		secondroot=((-b-sqrt(D))/(2*a));
 		printf("The roots %f and %f are real and distinct",firstroot,secondroot);
 	}
 	else if(D==0)
 	{
-		firstroot=((-b+sqrt(D))/2*a);
-		secondroot=((-b-sqrt(D))/2*a);
+		firstroot=((-b+sqrt(D))/(2*a));
+		secondroot=((-b-sqrt(D))/(2*a));
 		printf("The roots %f and %f are real and equal",firstroot,secondroot);
 	}
 	else
